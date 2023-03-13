@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  width: 100%;
+  height: 85px;
+  position: absolute;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header img {
+  margin-left: 30px;
+  width: 60px;
+}
+
+.header h2 {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: -10%;
+  color: white;
+  flex: 1;
+  margin-left: 10px;
+}
+
+.header h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+  margin-right: 30px;
+}
+
+.meme {
+  padding: 40px;
+}
+
+.meme form {
+  padding-top: 100px;
+  display: grid;
+  grid-template: 40px 40px/ 1fr 1fr;
+  gap: 17px;
+}
+
+.meme form input {
+  padding: 30px;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #0d0d0d;
+  text-indent: 5px;
+}
+
+.meme form button {
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  border: none;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+  grid-column: 1/ -1;
+  height: 60px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.meme img {
+  width: 677px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  margin-top: 70px;
+}
